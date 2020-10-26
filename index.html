@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pedra Papel Tesoura</title>
+        <link href = "https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap"rel="stylesheet">
+        <link rel="stylesheet" href="./css/column.css">
+        <link rel="stylesheet" href="./css/game.css">
+        <link rel="icon" href="./img/download.jpg">
+    </head>
+    <body>
+        <div class="playhard">
+            <h2>Placar</h2>
+            <table>
+                <tr>
+                    <th>Comp.</th>
+                    <th>Player</th>
+                </tr>
+                <tr>
+                    <td id="res">0</td>
+                    <td id ="second_res">0</td>
+                </tr>
+            </table>
+            <p>O primeiro a fazer 3 Pontos vence</p>
+        </div>
+        <main>
+            <div class="game_style">
+                <table class="table">
+                    <tr>
+                        <th>Pedra</th>
+                        <th>Papel</th>
+                        <th>Tesoura</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                    </tr>
+                </table>
+                <h1>Jokenpô</h1>
+                
+                <div class="select-verification">
+                    <hr class="line">
+                    <img src="./img/download.jpg" alt="jokenpo">
+                    
+                    <input id="receber_valor" type="text">
+                    <button onclick="validar()"> Ver resultado</button>
+                </div>
+            </div>
+        </main>
+        
+
+        </div>
+
+        <script src="./js/page-landing.js"></script>
+    </body>
+</html>
