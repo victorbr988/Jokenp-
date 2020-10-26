@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.playhard{
+    background:#2F80ED;
+    width: 15rem;
+    height: 100vh;
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: space-between;
+    font-size: 25px;
+    font-family: "Nunito" sans-serif;
+}
+table{
+    border: 1px solid;
+}
+table td{
+    border: 1px solid;
+    text-align: center;
+}
+table th{
+    border: 1px solid;
+}
+p{
+    margin: 0 0 3rem 1rem;
+}
+h2{
+    margin-top: 2rem;
+}
